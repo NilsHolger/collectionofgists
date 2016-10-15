@@ -6,6 +6,90 @@
 https://gist.github.com/NilsHolger/9802f7a115c975ba87427c90ff5c61c1
 https://gist.github.com/NilsHolger/018488686cd961a81870258bf8b222c0
 
+CPP Section
+----------------------------------------------------------------------------------------
+Clean modern optimized cpp code
+https://github.com/isocpp/CppCoreGuidelines
+
+Use source control, source control gives confidence to refactor the code
+https://git-scm.com/docs/git-bisect //help track down bugs
+
+Compiler
+Modern compilers do complex analysis of source code
+Turn the warnings up as high as possible, W4 in vs settings
+
+Static Analyzers
+Analyse source code without executing it, perform analysis and warnings that compilers do internally
+cpp check http://cppcheck.sourceforge.net/
+msvc integrated in visual studio
+clang tidy http://clang.llvm.org/extra/clang-tidy/
+metrix++
+
+Runtime Analyzers
+Sanitizers built in recent versions of GCC and CLANG
+Valgrind runs program through virtual CPU
+Checked STL implementation => correctly using the STL
+electric fence
+
+Automated Testing => always enable automated testing in the code
+C++ Unit Testing Frameworks
+https://github.com/google/googletest
+http://www.boost.org/doc/libs/1_61_0/libs/test/doc/html/index.html
+https://github.com/philsquared/Catch
+
+Continuous Integration, checks each commit against a set of compiler and tools, maintain code quality
+https://travis-ci.org/ LINUX, MACOS
+https://www.appveyor.com/ Windows
+Private Hosting
+Jenkins
+Hudson
+
+Fuzzy Testing => get all fussy and worked up about this :) (goal)=> 100% Code Coverage
+Attempts to generate new/novel tests for the code
+Breeds new input by analyzing code paths
+
+OPEN SOURCE COMPILERS
+Apple C++. It also comes with OS X on the developer tools CD.
+Bloodshed Dev-C++. A GCC-based (Mingw) IDE.
+Clang C++. A relatively new and very active development.
+Cygwin (GNU C++)
+Digital Mars C++
+Mentor Graphics - Lite edition.
+MINGW - "Minimalist GNU for Windows". Another GCC version for Windows including a free (non-GPL) w32api.
+DJ Delorie's C++ development system for DOS/Windows (GNU C++)
+GNU CC source
+IBM C++ for IBM power, System Z, Bluegene, and Cell.
+Intel C++ for non-commercial development
+Microsoft Visual C++ Express edition.
+Oracle C++.
+
+Interactive Compiler
+http://gcc.godbolt.org/
+
+We want sexy code:
+Premature optimization is the root of all evil. DONALD KNUTH 1974
+Don't optimize without reason. C++ Core Guidelines
+Don't pessimize prematurely. C++ Coding Standards Sutter
+
+Universal Principles I have picked up along the way:
+Write readable code. Readable code is maintainable code. ternary versus if/else, i = i + 1 versus i += 1, == versus === (only for js),
+switch case versus inheritance, no goto 
+Formatting, indenting, spacing, making the code look good, this can all be enforced with tools.
+Write code as if you are writing a love letter to your love, you will want the code to look beautiful. beautiful code.
+Code with pride and love. So your future self is proud of the work accomplished.
+Software Craftsmanship.
+Write code as if a psychopath is doing version control and he knows where you live.
+Clean Code Principles http://nilsnaegele.com/codeedge/cleancode.html (this is for c#)
+SOLID Principles.
+I know it is sexy to put 3 to 5 lines of a code in a one liner. Will everybody understand your intention? Intent is key.
+Make your intention clear in the code you write. Like a beautiful love letter full of emotions. :)
+
+Simpler, more idiomatic, expressive code is better.
+Reiterate: write simpler, more efficient, more maintainable code. C++ Core Guidelines 
+
+----------------------------------------------------------------------------------------
+
+
 (RTFM) => create a new addon, build a new web app && write a gist.
 we must learn the technologies forwards and backwards.
 code all the time, code with passion.
