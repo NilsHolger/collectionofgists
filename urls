@@ -91,6 +91,11 @@ Make your intention clear in the code you write. Like a beautiful love letter fu
 Simpler, more idiomatic, expressive code is better.
 Reiterate: write simpler, more efficient, more maintainable code. C++ Core Guidelines 
 
+Tools
+Resharper C++
+
+Further Reading
+Effective Modern C++ Scott Meyers
 ----------------------------------------------------------------------------------------
 
 
