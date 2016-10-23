@@ -1,1 +1,38 @@
-abc
+1. Value Variation
+Values: progress, continuous improvement
+
+2. DOWN Do only what's necessary
+Values: product efficiency progress
+Avoid premature optimization
+You ain't going to need it YAGNI example overengineering
+Keep it simple stupid KISS
+
+3. Isolate Aspects
+Values: progress
+Don't repeat yourself DRY
+Separation Of Concerns
+Single Level Of Abstraction
+Interface Segregation Principle
+Design and Implementation don't match
+Integration Operation Segregation Principle
+
+4. Minimize Dependencies
+Values: progress
+Dependency Inversion Principle
+Information Hiding Principle
+Law of Demeter
+Open Close Principle
+Tell, don't ask
+Interface Segregation Principle
+Integration Operation Segregation Principle
+
+5. Honor Pledges
+Values: progress and minimize surprises
+Liskov Substition Principle
+Principle of Least Astonishment
+Implementation mirrors Design
+Favor composition over inheritance
+
+6. Embrace Uncertainty
+Values: progress and continuous improvement
+Use a version control system
