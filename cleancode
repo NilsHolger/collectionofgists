@@ -1,3 +1,5 @@
+The Values of a Clean Code Developer and/or Software Craftsman
+
 1. Value Variation
 Values: progress, continuous improvement
 
@@ -36,3 +38,49 @@ Favor composition over inheritance
 6. Embrace Uncertainty
 Values: progress and continuous improvement
 Use a version control system
+Automated Integration tests
+Automated Unit tests
+Mockups
+Continuous Integration
+Inversion of Control Container
+
+7. Focus
+Values: Product Efficiency
+Component Orientation
+Test First
+Limit Work In Progress
+
+8. Value Quality
+Values: Product Efficiency
+Accept only high quality
+Automate Unit Tests
+Reviews
+
+9. Get Things Done
+Values: Product Efficiency
+Iterative Development
+Continuous Delivery
+Limit WIP
+
+10. Stay Clean
+Values: Progress, Correctness, Product Efficiency
+Respect the Boy Scout Rule
+Complex Refactorings
+Implement simple Refactoring Patterns
+Static Code Analysis (metrics)
+Code Coverage Analysis
+Respect Source Code Conventions
+
+11. Keep Moving 
+Values: Continuous Improvement
+READ, READ, READ -> Read Code, Write Code, Repeat
+Goto Technical Conferences
+Pass on your Experience
+Daily Reflection
+Root Cause Analysis
+Measure Errors
+Issue Tracking
+Regular Retrospection
+
+//Todo: Detail the principles described here, SOLID principles and concrete code samples of each principle, this is how it is done.
+
