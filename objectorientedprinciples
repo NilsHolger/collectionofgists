@@ -1,0 +1,29 @@
+object oriented principles -> sexy code:
+
+Encapsulation
+Accessor
+Mutator
+Abstraction
+Inheritance
+Polymorphism
+
+SOLID Code
+Single-Responsibility Principle: a component should have only one reason to exist. Small classes, methods, focused ...
+Open-Close Principle: open for extension, closed for modification. a component should be easily extendable without modifying 
+the component itself ...
+Liskov-Substition Principle: every subclass/derived class should be substitutable for their base/parent class ...
+Interface-Segregation Principle: consumers should never be forced to implement an interface that they do not use or consumers 
+should not be coerced into depending on methods they do not use, create specialized interfaces that components can implement
+Dependency-Inversion Principle: entities must depend on abstractions not concretions. high level modules must not depend on low
+level modules but they should depend on abstractions
+
+
+old (legacy code) -> monolithic, tightly coupled, repeated code and functionality, complex, full of dependencies, obsolete technology
+
+new (modern code) -> object oriented, solid, clean code principles, smaller more compact code, compiles faster, executes faster, performance boost
+
+
+dilemma: the old stuff works, why fix something that isn't broken? is it extensible? does it scale? performance? bugs? under test? 
+
+solution: see above, break it apart into focused, cohesive components, interfaces, code contracts, abstraction layers, naming conventions,
+use modern technology standards. innovate think 5 years ahead. it is the unknown that poses problem. uncertainty ...
