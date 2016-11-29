@@ -6,11 +6,13 @@
 https://gist.github.com/NilsHolger/9802f7a115c975ba87427c90ff5c61c1
 https://gist.github.com/NilsHolger/018488686cd961a81870258bf8b222c0
 https://gist.github.com/NilsHolger/6fe7dee79792c20334872a48082d3bee
+https://gist.github.com/NilsHolger/b9f3e3822e927809108e6fbf875207c8
 
 JAVASCRIPT Section
 ---------------------------------------------------------------------------------------
 http://nilsnaegele.com/codeedge/typescript1.html
 http://nilsnaegele.com/codeedge/typescriptdesignpatterns.html
+typescript is unable to transpile the ES2017 feature set. NODE && V8 are on ES7
 we must learn the technologies, forwards and backwards.
 code with passion.
 build a new web app.
@@ -18,6 +20,7 @@ write a new tutorial.
 progress.
 learn a new technology, deepen your skills.
 and have a max of fun in the process.
+HARDER, FASTER, STRONGER, BETTER ngDaftPunk, for all you do this is for you Carmen, just for fun ... BRECHT BILL :)
 ---------------------------------------------------------------------------------------
 
 CPP Section
